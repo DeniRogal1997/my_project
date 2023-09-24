@@ -1,0 +1,58 @@
+
+body { 
+  background-image: url('https://images.wallpaperscraft.ru/image/single/ulitsa_zakat_palmy_122106_1920x1080.jpg')
+}
+.box {
+  height: 300px;
+  width: 300px;
+  font-family: 'Roboto';
+  position: relative;
+  left: 42%;
+  top: 220px;
+}
+
+#Имя {
+  height: 30px;
+  width: 200px;
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: black;
+  margin: 5px;
+  font-family: 'Roboto';
+  background: transparent;
+}
+
+
+#Пароль {
+  height: 30px;
+  width: 200px;
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: black;
+  margin: 5px;
+  font-family: 'Roboto';
+  background: transparent;
+}
+
+button {
+  margin: 25px 0px 0px 0px;
+  height: 30px;
+  width: 210px;
+  background-color: rgba(186, 76, 22, 0.87);
+  border: none;
+  border-radius: 10px;
+  font-family: 'Roboto';
+  color: white;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: darkgoldenrod;
+  transform: scale(1.02);
+  transition-duration:0.2s;
+}
+
+p {
+  position: relative;
+  left: 17%;
+}
